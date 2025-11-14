@@ -1,0 +1,11 @@
+[package]
+name = "columnar-csv"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arrow = { version = "56" }
+datafusion = { version = "50.3.0", default-features = false }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
