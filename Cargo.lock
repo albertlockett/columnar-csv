@@ -360,7 +360,10 @@ name = "columnar-csv"
 version = "0.1.0"
 dependencies = [
  "arrow",
+ "bytes",
  "datafusion",
+ "object_store",
+ "thiserror",
  "tokio",
 ]
 

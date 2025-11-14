@@ -5,7 +5,10 @@ edition = "2024"
 
 [dependencies]
 arrow = { version = "56" }
+bytes = { version = "1.10" }
 datafusion = { version = "50.3.0", default-features = false }
+object_store = { version = "0.12" }
+thiserror = { version = "2" }
 
 [dev-dependencies]
 tokio = { version = "1", features = ["full"] }
